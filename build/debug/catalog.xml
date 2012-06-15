@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="ca/wegetsignal/nativeextensions/MacJoystickEvent" mod="1336183417000" signatureChecksum="4087387889" >
+        <def id="ca.wegetsignal.nativeextensions:MacJoystickEvent" /> 
+        <dep id="ca.wegetsignal.nativeextensions:MacJoystick" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="_2084e6013965d225b2da9be0612b272031ac0b8f19334a69972ea79d4f7c0b14_flash_display_Sprite" mod="1336778833250" signatureChecksum="134838411" >
+        <def id="_2084e6013965d225b2da9be0612b272031ac0b8f19334a69972ea79d4f7c0b14_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="ca/wegetsignal/nativeextensions/MacJoystick" mod="1336358602000" signatureChecksum="2478924774" >
+        <def id="ca.wegetsignal.nativeextensions:MacJoystick" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="ca/wegetsignal/nativeextensions/MacJoystickManager" mod="1336778832000" signatureChecksum="230391714" >
+        <def id="ca.wegetsignal.nativeextensions:MacJoystickManager" /> 
+        <dep id="ca.wegetsignal.nativeextensions:MacJoystick" type="e" /> 
+        <dep id="ca.wegetsignal.nativeextensions:MacJoystickEvent" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="ca.wegetsignal.nativeextensions:MacJoystick" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="5ba30f7b576cca19234ed2ce0010c7d93d8d2b21c324614fb25a29aa91879bd8"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

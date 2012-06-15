@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD9A0B1B1554BA2200FC13A1 /* JoystickHatswitch.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9A0B191554BA2200FC13A1 /* JoystickHatswitch.h */; };
+		BD9A0B1C1554BA2200FC13A1 /* JoystickHatswitch.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9A0B1A1554BA2200FC13A1 /* JoystickHatswitch.m */; };
+		BDB42D8C1550CCD7009B59FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB42D8B1550CCD7009B59FA /* Cocoa.framework */; };
+		BDB42D961550CCD7009B59FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDB42D941550CCD7009B59FA /* InfoPlist.strings */; };
+		BDB42DA61550CD37009B59FA /* Joystick.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB42D9D1550CD37009B59FA /* Joystick.h */; };
+		BDB42DA71550CD37009B59FA /* JoystickNotificationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB42D9E1550CD37009B59FA /* JoystickNotificationDelegate.h */; };
+		BDB42DA81550CD37009B59FA /* Joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB42D9F1550CD37009B59FA /* Joystick.m */; };
+		BDB42DA91550CD37009B59FA /* JoystickManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB42DA01550CD37009B59FA /* JoystickManager.h */; };
+		BDB42DAA1550CD37009B59FA /* JoystickManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB42DA11550CD37009B59FA /* JoystickManager.m */; };
+		BDB42DAB1550CD37009B59FA /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB42DA21550CD37009B59FA /* FlashRuntimeExtensions.h */; };
+		BDB42DAC1550CD37009B59FA /* MacJoystickANE.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB42DA31550CD37009B59FA /* MacJoystickANE.m */; };
+		BDB42DAD1550CD37009B59FA /* MacANEJoystickController.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB42DA41550CD37009B59FA /* MacANEJoystickController.h */; };
+		BDB42DAE1550CD37009B59FA /* MacANEJoystickController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB42DA51550CD37009B59FA /* MacANEJoystickController.m */; };
+		BDB42DB01550CD42009B59FA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB42DAF1550CD42009B59FA /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD9A0B191554BA2200FC13A1 /* JoystickHatswitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickHatswitch.h; sourceTree = "<group>"; };
+		BD9A0B1A1554BA2200FC13A1 /* JoystickHatswitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoystickHatswitch.m; sourceTree = "<group>"; };
+		BDB42D881550CCD7009B59FA /* MacJoyANE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MacJoyANE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB42D8B1550CCD7009B59FA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BDB42D8E1550CCD7009B59FA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BDB42D8F1550CCD7009B59FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDB42D901550CCD7009B59FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDB42D931550CCD7009B59FA /* MacJoyANE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacJoyANE-Info.plist"; sourceTree = "<group>"; };
+		BDB42D951550CCD7009B59FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDB42D971550CCD7009B59FA /* MacJoyANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacJoyANE-Prefix.pch"; sourceTree = "<group>"; };
+		BDB42D9D1550CD37009B59FA /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
+		BDB42D9E1550CD37009B59FA /* JoystickNotificationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickNotificationDelegate.h; sourceTree = "<group>"; };
+		BDB42D9F1550CD37009B59FA /* Joystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joystick.m; sourceTree = "<group>"; };
+		BDB42DA01550CD37009B59FA /* JoystickManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickManager.h; sourceTree = "<group>"; };
+		BDB42DA11550CD37009B59FA /* JoystickManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoystickManager.m; sourceTree = "<group>"; };
+		BDB42DA21550CD37009B59FA /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		BDB42DA31550CD37009B59FA /* MacJoystickANE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacJoystickANE.m; sourceTree = "<group>"; };
+		BDB42DA41550CD37009B59FA /* MacANEJoystickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacANEJoystickController.h; sourceTree = "<group>"; };
+		BDB42DA51550CD37009B59FA /* MacANEJoystickController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacANEJoystickController.m; sourceTree = "<group>"; };
+		BDB42DAF1550CD42009B59FA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = MacJoyANE/IOKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB42D841550CCD7009B59FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB42D8C1550CCD7009B59FA /* Cocoa.framework in Frameworks */,
+				BDB42DB01550CD42009B59FA /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB42D7C1550CCD7009B59FA = {
+			isa = PBXGroup;
+			children = (
+				BDB42D911550CCD7009B59FA /* MacJoyANE */,
+				BDB42D8A1550CCD7009B59FA /* Frameworks */,
+				BDB42D891550CCD7009B59FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB42D891550CCD7009B59FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB42D881550CCD7009B59FA /* MacJoyANE.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB42D8A1550CCD7009B59FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB42D8B1550CCD7009B59FA /* Cocoa.framework */,
+				BDB42D8D1550CCD7009B59FA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB42D8D1550CCD7009B59FA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDB42DAF1550CD42009B59FA /* IOKit.framework */,
+				BDB42D8E1550CCD7009B59FA /* AppKit.framework */,
+				BDB42D8F1550CCD7009B59FA /* CoreData.framework */,
+				BDB42D901550CCD7009B59FA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BDB42D911550CCD7009B59FA /* MacJoyANE */ = {
+			isa = PBXGroup;
+			children = (
+				BD9A0B191554BA2200FC13A1 /* JoystickHatswitch.h */,
+				BD9A0B1A1554BA2200FC13A1 /* JoystickHatswitch.m */,
+				BDB42D9E1550CD37009B59FA /* JoystickNotificationDelegate.h */,
+				BDB42D9D1550CD37009B59FA /* Joystick.h */,
+				BDB42D9F1550CD37009B59FA /* Joystick.m */,
+				BDB42DA01550CD37009B59FA /* JoystickManager.h */,
+				BDB42DA11550CD37009B59FA /* JoystickManager.m */,
+				BDB42DA21550CD37009B59FA /* FlashRuntimeExtensions.h */,
+				BDB42D921550CCD7009B59FA /* Supporting Files */,
+				BDB42DA31550CD37009B59FA /* MacJoystickANE.m */,
+				BDB42DA41550CD37009B59FA /* MacANEJoystickController.h */,
+				BDB42DA51550CD37009B59FA /* MacANEJoystickController.m */,
+			);
+			path = MacJoyANE;
+			sourceTree = "<group>";
+		};
+		BDB42D921550CCD7009B59FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDB42D931550CCD7009B59FA /* MacJoyANE-Info.plist */,
+				BDB42D941550CCD7009B59FA /* InfoPlist.strings */,
+				BDB42D971550CCD7009B59FA /* MacJoyANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BDB42D851550CCD7009B59FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB42DA61550CD37009B59FA /* Joystick.h in Headers */,
+				BDB42DA71550CD37009B59FA /* JoystickNotificationDelegate.h in Headers */,
+				BDB42DA91550CD37009B59FA /* JoystickManager.h in Headers */,
+				BDB42DAB1550CD37009B59FA /* FlashRuntimeExtensions.h in Headers */,
+				BDB42DAD1550CD37009B59FA /* MacANEJoystickController.h in Headers */,
+				BD9A0B1B1554BA2200FC13A1 /* JoystickHatswitch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BDB42D871550CCD7009B59FA /* MacJoyANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB42D9A1550CCD7009B59FA /* Build configuration list for PBXNativeTarget "MacJoyANE" */;
+			buildPhases = (
+				BDB42D851550CCD7009B59FA /* Headers */,
+				BDB42D861550CCD7009B59FA /* Resources */,
+				BDB42D831550CCD7009B59FA /* Sources */,
+				BDB42D841550CCD7009B59FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacJoyANE;
+			productName = MacJoyANE;
+			productReference = BDB42D881550CCD7009B59FA /* MacJoyANE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB42D7E1550CCD7009B59FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "We Get Signal";
+			};
+			buildConfigurationList = BDB42D811550CCD7009B59FA /* Build configuration list for PBXProject "MacJoyANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDB42D7C1550CCD7009B59FA;
+			productRefGroup = BDB42D891550CCD7009B59FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB42D871550CCD7009B59FA /* MacJoyANE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB42D861550CCD7009B59FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB42D961550CCD7009B59FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB42D831550CCD7009B59FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB42DA81550CD37009B59FA /* Joystick.m in Sources */,
+				BDB42DAA1550CD37009B59FA /* JoystickManager.m in Sources */,
+				BDB42DAC1550CD37009B59FA /* MacJoystickANE.m in Sources */,
+				BDB42DAE1550CD37009B59FA /* MacANEJoystickController.m in Sources */,
+				BD9A0B1C1554BA2200FC13A1 /* JoystickHatswitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDB42D941550CCD7009B59FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB42D951550CCD7009B59FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB42D981550CCD7009B59FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDB42D991550CCD7009B59FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDB42D9B1550CCD7009B59FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "/Users/jotapeh/Documents/AIR Native Extensions/MacJoystickANE/build/debug";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacJoyANE/MacJoyANE-Prefix.pch";
+				INFOPLIST_FILE = "MacJoyANE/MacJoyANE-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../runtimes/air/mac @executable_path/../Frameworks /Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks/Adobe\\ AIR.framework/Versions/1.0",
+				);
+				OTHER_LDFLAGS = (
+					"-flat_namespace",
+					"-weak_framework",
+					"\"Adobe AIR\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		BDB42D9C1550CCD7009B59FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "/Users/jotapeh/Documents/AIR Native Extensions/MacJoystickANE/build/release";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacJoyANE/MacJoyANE-Prefix.pch";
+				INFOPLIST_FILE = "MacJoyANE/MacJoyANE-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../runtimes/air/mac @executable_path/../Frameworks /Library/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks/Adobe\\ AIR.framework/Versions/1.0",
+				);
+				OTHER_LDFLAGS = (
+					"-flat_namespace",
+					"-weak_framework",
+					"\"Adobe AIR\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB42D811550CCD7009B59FA /* Build configuration list for PBXProject "MacJoyANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB42D981550CCD7009B59FA /* Debug */,
+				BDB42D991550CCD7009B59FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB42D9A1550CCD7009B59FA /* Build configuration list for PBXNativeTarget "MacJoyANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB42D9B1550CCD7009B59FA /* Debug */,
+				BDB42D9C1550CCD7009B59FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB42D7E1550CCD7009B59FA /* Project object */;
+}
